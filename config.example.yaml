@@ -1,0 +1,12 @@
+# Пример конфига viddl
+quality: "720p"           # best | 1080p | 720p | 480p | audio
+output_dir: "./downloads"
+audio_only: false
+cookies_file: null        # путь к cookies.txt (Netscape)
+proxy: null               # "socks5://127.0.0.1:1080"
+save_metadata: true
+skip_existing: true
+concurrent: 2
+retries: 3
+log_file: "./viddl.log"
+verbose: false
